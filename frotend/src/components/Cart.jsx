@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaTrash, FaPlus, FaMinus, FaArrowLeft, FaShoppingBag, FaRupeeSign, FaQrcode, FaExclamationTriangle, FaCheckCircle } from "react-icons/fa";
-
+import "./Cart.css";
 export default function Cart() {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
